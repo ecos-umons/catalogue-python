@@ -51,4 +51,5 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: output/ # The folder the action should deploy.
+          FOLDER: output # The folder the action should deploy.
+          COMMIT_MESSAGE: Github Action 
