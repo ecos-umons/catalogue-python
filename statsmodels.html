@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>statsmodels - Catalogue de librairies Python pour l'analyse de données</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="./statsmodels.html">
+
+        <meta name="author" content="" />
+        <meta name="keywords" content="statistique" />
+        <meta name="description" content="statsmodels est un module Python visant à complèter SciPy, en terme de statistique descriptive, d’économétrie, d’estimation ou d’inférence (se basant à chaque fois sur un modèle pertinent). import numpy as np import statsmodels.api as sm # Génération de données fictives (2 régresseurs + constante) nobs = 100 X = np …" />
+
+        <meta property="og:site_name" content="Catalogue de librairies Python pour l'analyse de données" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="statsmodels"/>
+        <meta property="og:url" content="./statsmodels.html"/>
+        <meta property="og:description" content="statsmodels est un module Python visant à complèter SciPy, en terme de statistique descriptive, d’économétrie, d’estimation ou d’inférence (se basant à chaque fois sur un modèle pertinent). import numpy as np import statsmodels.api as sm # Génération de données fictives (2 régresseurs + constante) nobs = 100 X = np …"/>
+        <meta property="article:published_time" content="2020-03-17 17:43:23.311880+01:00" />
+            <meta property="article:section" content="markdowns" />
+            <meta property="article:tag" content="statistique" />
+            <meta property="article:author" content="" />
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/native.css" rel="stylesheet">
+        <link href="./theme/css/typogrify.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="./" class="navbar-brand">
+Catalogue de librairies Python pour l'analyse de données            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+<a href="https://github.com/BenjaminAndre/catalogue-python/edit/sources/content/markdowns/statsmodels.md">
+  <img src="/catalogue-python/templates/github.png" alt="Github" class="img-thumbnail" style="height:40px;">
+</a>            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<!-- Banner -->
+<!-- End Banner -->
+
+<!-- Content Container -->
+
+
+
+<div class="container-fluid">
+    <div class="row">
+<div class="col-sm-3" id="metadata">
+  <aside>
+<!-- Sidebar -->
+<section class="well well-sm">
+  <ol class="list-group list-group-flush">
+<h3>Détails</h3>
+
+<span class="label label-default">Première version</span><br>
+<span class="modified">
+    <i class="fa fa-calendar"></i><time datetime="2011-06-14"> 2011-06-14</time>
+</span>
+<br/>
+
+<span class="label label-default">Dernière version</span><br>
+<span class="modified">
+    <i class="fa fa-calendar"></i><time datetime="0.9.0rc1"> 0.9.0rc1</time>
+</span>
+<br/>
+
+<span class="label label-default">Dernière version</span><br>
+<span class="modified">2018-04-30</span>
+<br/>
+
+
+	<span class="label label-default">Licenses</span><br>
+		BSD
+<br/>
+
+<span class="label label-default">Tags</span><br>
+	<a href="./tag/statistique.html">statistique</a>
+<br/>
+
+<h3>Stats</h3>
+
+<span class="label label-default"><img src="/catalogue-python/templates/star.svg" style="margin-right: 3px">Stars</span><br>
+<span class="modified">4837</span>
+<br/>
+
+<span class="label label-default"><img src="/catalogue-python/templates/fork.svg" style="margin-right: 3px">Forks</span><br>
+<span class="modified">1867</span>
+<br/>
+
+<span class="label label-default"><img src="/catalogue-python/templates/issues.svg" style="margin-right: 3px">Issues</span><br>
+<span class="modified">1783</span>
+<br/>
+
+<span class="label label-default"><img src="/catalogue-python/templates/pr.svg" style="margin-right: 3px">Pull requests</span><br>
+<span class="modified">152</span>
+<br/>
+
+
+
+
+<h3>Liens</h3>
+
+<span class="label label-default">Pip</span><br>
+<span class="modified"><a href="https://pypi.org/project/statsmodels">statsmodels</a></span>
+<br/>
+
+<span class="label label-default">Site web</span><br>
+<span class="modified"><a href="http://www.statsmodels.org/devel/">http://www.statsmodels.org/devel/</a></span>
+<br/>
+
+<span class="label label-default">Sources</span><br>
+<span class="modified"><a href="https://github.com/statsmodels/statsmodels">https://github.com/statsmodels/statsmodels</a></span>
+<br/>
+
+<span class="label label-default">Documentation</span><br>
+<span class="modified"><a href="https://spacy.io/api">https://spacy.io/api</a></span>
+<br/>
+<h3>Fiche</h3>
+
+<span class="label label-default">Création</span><br>
+<span class="published">
+    <i class="fa fa-calendar"></i><time datetime="2020-02-10"> 2020-02-10</time>
+</span>
+<br/>
+
+<span class="label label-default">Mise à jour</span><br>
+<span class="published">
+    <i class="fa fa-calendar"></i><time datetime="2020-03-04"> 2020-03-04</time>
+</span>
+<br/>
+
+
+	<span class="label label-default">Rédacteurs</span><br>
+		André B.
+  </ol>
+</section>
+<!-- End Sidebar -->  </aside>
+</div>
+        <div class="col-sm-6">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./statsmodels.html"
+                       rel="bookmark"
+                       title="Permalink to statsmodels">
+                        statsmodels
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <p>statsmodels est un module Python visant à complèter SciPy, en terme de statistique descriptive, d&#8217;économétrie, d&#8217;estimation ou d&#8217;inférence (se basant à chaque fois sur un modèle&nbsp;pertinent).</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">statsmodels.api</span> <span class="k">as</span> <span class="nn">sm</span>
+
+<span class="c1"># Génération de données fictives (2 régresseurs + constante)</span>
+<span class="n">nobs</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">((</span><span class="n">nobs</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">add_constant</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+<span class="n">beta</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="o">.</span><span class="mi">1</span><span class="p">,</span> <span class="o">.</span><span class="mi">5</span><span class="p">]</span>
+<span class="n">e</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">(</span><span class="n">nobs</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">beta</span><span class="p">)</span> <span class="o">+</span> <span class="n">e</span>
+
+<span class="c1"># Apprentissage</span>
+<span class="n">results</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">OLS</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">X</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
+
+<span class="c1"># Inspection des résultats</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">results</span><span class="o">.</span><span class="n">summary</span><span class="p">())</span>
+                            <span class="n">OLS</span> <span class="n">Regression</span> <span class="n">Results</span>                            
+<span class="o">==============================================================================</span>
+<span class="n">Dep</span><span class="o">.</span> <span class="n">Variable</span><span class="p">:</span>                      <span class="n">y</span>   <span class="n">R</span><span class="o">-</span><span class="n">squared</span><span class="p">:</span>                       <span class="mf">0.298</span>
+<span class="n">Model</span><span class="p">:</span>                            <span class="n">OLS</span>   <span class="n">Adj</span><span class="o">.</span> <span class="n">R</span><span class="o">-</span><span class="n">squared</span><span class="p">:</span>                  <span class="mf">0.283</span>
+<span class="n">Method</span><span class="p">:</span>                 <span class="n">Least</span> <span class="n">Squares</span>   <span class="n">F</span><span class="o">-</span><span class="n">statistic</span><span class="p">:</span>                     <span class="mf">20.57</span>
+<span class="n">Date</span><span class="p">:</span>                <span class="n">Wed</span><span class="p">,</span> <span class="mi">22</span> <span class="n">Jan</span> <span class="mi">2020</span>   <span class="n">Prob</span> <span class="p">(</span><span class="n">F</span><span class="o">-</span><span class="n">statistic</span><span class="p">):</span>           <span class="mf">3.58e-08</span>
+<span class="n">Time</span><span class="p">:</span>                        <span class="mi">18</span><span class="p">:</span><span class="mi">54</span><span class="p">:</span><span class="mi">03</span>   <span class="n">Log</span><span class="o">-</span><span class="n">Likelihood</span><span class="p">:</span>                <span class="o">-</span><span class="mf">18.273</span>
+<span class="n">No</span><span class="o">.</span> <span class="n">Observations</span><span class="p">:</span>                 <span class="mi">100</span>   <span class="n">AIC</span><span class="p">:</span>                             <span class="mf">42.55</span>
+<span class="n">Df</span> <span class="n">Residuals</span><span class="p">:</span>                      <span class="mi">97</span>   <span class="n">BIC</span><span class="p">:</span>                             <span class="mf">50.36</span>
+<span class="n">Df</span> <span class="n">Model</span><span class="p">:</span>                           <span class="mi">2</span>                                         
+<span class="n">Covariance</span> <span class="n">Type</span><span class="p">:</span>            <span class="n">nonrobust</span>                                         
+<span class="o">==============================================================================</span>
+                 <span class="n">coef</span>    <span class="n">std</span> <span class="n">err</span>          <span class="n">t</span>      <span class="n">P</span><span class="o">&gt;|</span><span class="n">t</span><span class="o">|</span>      <span class="p">[</span><span class="mf">0.025</span>      <span class="mf">0.975</span><span class="p">]</span>
+<span class="o">------------------------------------------------------------------------------</span>
+<span class="n">const</span>          <span class="mf">1.4687</span>      <span class="mf">0.070</span>     <span class="mf">20.862</span>      <span class="mf">0.000</span>       <span class="mf">1.329</span>       <span class="mf">1.608</span>
+<span class="n">x1</span>             <span class="mf">0.0507</span>      <span class="mf">0.096</span>      <span class="mf">0.528</span>      <span class="mf">0.599</span>      <span class="o">-</span><span class="mf">0.140</span>       <span class="mf">0.241</span>
+<span class="n">x2</span>             <span class="mf">0.6083</span>      <span class="mf">0.097</span>      <span class="mf">6.269</span>      <span class="mf">0.000</span>       <span class="mf">0.416</span>       <span class="mf">0.801</span>
+<span class="o">==============================================================================</span>
+<span class="n">Omnibus</span><span class="p">:</span>                       <span class="mf">57.347</span>   <span class="n">Durbin</span><span class="o">-</span><span class="n">Watson</span><span class="p">:</span>                   <span class="mf">2.386</span>
+<span class="n">Prob</span><span class="p">(</span><span class="n">Omnibus</span><span class="p">):</span>                  <span class="mf">0.000</span>   <span class="n">Jarque</span><span class="o">-</span><span class="n">Bera</span> <span class="p">(</span><span class="n">JB</span><span class="p">):</span>                <span class="mf">7.214</span>
+<span class="n">Skew</span><span class="p">:</span>                           <span class="mf">0.072</span>   <span class="n">Prob</span><span class="p">(</span><span class="n">JB</span><span class="p">):</span>                       <span class="mf">0.0271</span>
+<span class="n">Kurtosis</span><span class="p">:</span>                       <span class="mf">1.692</span>   <span class="n">Cond</span><span class="o">.</span> <span class="n">No</span><span class="o">.</span>                         <span class="mf">4.71</span>
+<span class="o">==============================================================================</span>
+</pre></div>
+
+
+<h2>Fonctionnalités</h2>
+<ul>
+<li>Des modèles de régression linéaire&nbsp;supplémentaires</li>
+<li>Un modèle linéaire mixte (sur les effets et la&nbsp;variance)</li>
+<li>Des modèles linéaires généralisés (<span class="caps">GLM</span>) avec un support pour les distributions de type exponentiel à un&nbsp;facteur</li>
+<li>Un <span class="caps">GLM</span> Baysésien Mixte pour la distributions polynomiales et de&nbsp;Poisson</li>
+<li>Une estimations d&#8217;équations généralisées (<span class="caps">GEE</span>) pour les données&nbsp;longitudinales</li>
+<li>Des modèles discrets (logit, probit, Poisson, Régression Binomiale&nbsp;Négative)</li>
+<li>Modèles Linéaires Robustes (<span class="caps">RLM</span>)</li>
+<li>Analyse des séries temporelles (modèles StateSpace, chaînes de Markov, <span class="caps">ARIMA</span>, <span class="caps">VAR</span>, <span class="caps">VECM</span>,&nbsp;&#8230;)</li>
+<li>Analyse de survie (Vox,&nbsp;Kaplan-Meier)</li>
+<li>Outils supplémentaires d&#8217;analyse&nbsp;multivariée</li>
+<li>Statistiques sans&nbsp;paramètre</li>
+<li>Tests statistiques&nbsp;additionnels</li>
+<li>Jeux de données pour exemples et&nbsp;tests</li>
+<li><span class="caps">MICE</span></li>
+<li>Graphiques&nbsp;supplémentaires</li>
+<li>Outils pour les flux (lecture de .dta, bien qu&#8217;en retard sur pandas, export vers ascii, latex et&nbsp;html)</li>
+<li>Modèles&nbsp;divers</li>
+<li>Des exemples dans différents stades de développement pour un découverte de la&nbsp;librairie</li>
+</ul>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+          <aside>
+<!-- Sidebar -->
+<section class="well well-sm">
+  <ul class="list-group list-group-flush">
+    <div class="panel-group" id="accordion">        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">7</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-acquisition">acquisition</a>
+                </h5>
+            </div>
+            <div id="collapse-acquisition" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./beautiful-soup.html">Beautiful&nbsp;Soup</a></p>
+                    <p><a href="./dataset.html">Dataset</a></p>
+                    <p><a href="./pattern.html">Pattern</a></p>
+                    <p><a href="./pyspider.html">pyspider</a></p>
+                    <p><a href="./requests.html">Requests</a></p>
+                    <p><a href="./scrapy.html">Scrapy</a></p>
+                    <p><a href="./spark.html">Spark</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">14</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-autre-outil">autre outil</a>
+                </h5>
+            </div>
+            <div id="collapse-autre-outil" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./arrow.html">Arrow</a></p>
+                    <p><a href="./cupy.html">CuPy</a></p>
+                    <p><a href="./dataset.html">Dataset</a></p>
+                    <p><a href="./graph-tool.html">graph-tool</a></p>
+                    <p><a href="./mlflow.html">MLflow</a></p>
+                    <p><a href="./networkx.html">NetworkX</a></p>
+                    <p><a href="./patsy.html">Patsy</a></p>
+                    <p><a href="./peewee.html">Peewee</a></p>
+                    <p><a href="./pendulum.html">Pendulum</a></p>
+                    <p><a href="./prophet.html">Prophet</a></p>
+                    <p><a href="./igraph.html">igraph</a></p>
+                    <p><a href="./requests.html">Requests</a></p>
+                    <p><a href="./schematics.html">Schematics</a></p>
+                    <p><a href="./toolz.html">toolz</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">4</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-calcul-numerique">calcul numérique</a>
+                </h5>
+            </div>
+            <div id="collapse-calcul-numerique" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./numexpr.html">NumExpr</a></p>
+                    <p><a href="./pytorch.html">PyTorch</a></p>
+                    <p><a href="./scipy.html">Scipy</a></p>
+                    <p><a href="./sympy.html">Sympy</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">4</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-dashboard">dashboard</a>
+                </h5>
+            </div>
+            <div id="collapse-dashboard" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./apache-superset.html">Apache&nbsp;Superset</a></p>
+                    <p><a href="./bokeh.html">Bokeh</a></p>
+                    <p><a href="./dask.html">Dask</a></p>
+                    <p><a href="./luigi.html">Luigi</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">4</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-data-mining">data mining</a>
+                </h5>
+            </div>
+            <div id="collapse-data-mining" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./gensim.html">Gensim</a></p>
+                    <p><a href="./orange.html">Orange</a></p>
+                    <p><a href="./scrapy.html">Scrapy</a></p>
+                    <p><a href="./spark.html">Spark</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">4</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-environnement-scientifique">environnement scientifique</a>
+                </h5>
+            </div>
+            <div id="collapse-environnement-scientifique" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./jupyterlab.html">JupyterLab</a></p>
+                    <p><a href="./orange.html">Orange</a></p>
+                    <p><a href="./scipy.html">Scipy</a></p>
+                    <p><a href="./spyder.html">Spyder</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">6</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-exploration">exploration</a>
+                </h5>
+            </div>
+            <div id="collapse-exploration" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./apache-superset.html">Apache&nbsp;Superset</a></p>
+                    <p><a href="./datasette.html">Datasette</a></p>
+                    <p><a href="./orange.html">Orange</a></p>
+                    <p><a href="./pandas-profiling.html">Pandas&nbsp;Profiling</a></p>
+                    <p><a href="./plotlypy.html">plotly.py</a></p>
+                    <p><a href="./igraph.html">igraph</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">5</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-generation">generation</a>
+                </h5>
+            </div>
+            <div id="collapse-generation" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./faker.html">Faker</a></p>
+                    <p><a href="./graph-tool.html">graph-tool</a></p>
+                    <p><a href="./mimesis.html">Mimesis</a></p>
+                    <p><a href="./networkx.html">NetworkX</a></p>
+                    <p><a href="./prophet.html">Prophet</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">9</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-machine-learning">machine learning</a>
+                </h5>
+            </div>
+            <div id="collapse-machine-learning" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./autokeras.html">AutoKeras</a></p>
+                    <p><a href="./chainer.html">Chainer</a></p>
+                    <p><a href="./keras.html">Keras</a></p>
+                    <p><a href="./natural-language-toolkit-nltk.html">Natural Language Toolkit (<span class="caps">NLTK</span>)</a></p>
+                    <p><a href="./pattern.html">Pattern</a></p>
+                    <p><a href="./pytorch.html">PyTorch</a></p>
+                    <p><a href="./scikit-learn.html">scikit-learn</a></p>
+                    <p><a href="./spark.html">Spark</a></p>
+                    <p><a href="./tensorflow.html">TensorFlow</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">14</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-manipulation">manipulation</a>
+                </h5>
+            </div>
+            <div id="collapse-manipulation" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./arrow.html">Arrow</a></p>
+                    <p><a href="./cupy.html">CuPy</a></p>
+                    <p><a href="./dask.html">Dask</a></p>
+                    <p><a href="./graph-tool.html">graph-tool</a></p>
+                    <p><a href="./networkx.html">NetworkX</a></p>
+                    <p><a href="./numpy.html">NumPy</a></p>
+                    <p><a href="./orange.html">Orange</a></p>
+                    <p><a href="./pandas.html">pandas</a></p>
+                    <p><a href="./peewee.html">Peewee</a></p>
+                    <p><a href="./pendulum.html">Pendulum</a></p>
+                    <p><a href="./pytorch.html">PyTorch</a></p>
+                    <p><a href="./schematics.html">Schematics</a></p>
+                    <p><a href="./scikit-learn.html">scikit-learn</a></p>
+                    <p><a href="./toolz.html">toolz</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">6</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-nlp">nlp</a>
+                </h5>
+            </div>
+            <div id="collapse-nlp" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./gensim.html">Gensim</a></p>
+                    <p><a href="./natural-language-toolkit-nltk.html">Natural Language Toolkit (<span class="caps">NLTK</span>)</a></p>
+                    <p><a href="./pattern.html">Pattern</a></p>
+                    <p><a href="./polyglot.html">Polyglot</a></p>
+                    <p><a href="./spacy.html">spaCy</a></p>
+                    <p><a href="./textblob.html">TextBlob</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">5</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-pipeline">pipeline</a>
+                </h5>
+            </div>
+            <div id="collapse-pipeline" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./dask.html">Dask</a></p>
+                    <p><a href="./joblib.html">Joblib</a></p>
+                    <p><a href="./jupyterlab.html">JupyterLab</a></p>
+                    <p><a href="./luigi.html">Luigi</a></p>
+                    <p><a href="./mlflow.html">MLflow</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">11</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-statistique">statistique</a>
+                </h5>
+            </div>
+            <div id="collapse-statistique" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./graph-tool.html">graph-tool</a></p>
+                    <p><a href="./lifelines.html">Lifelines</a></p>
+                    <p><a href="./lifetimes.html">Lifetimes</a></p>
+                    <p><a href="./networkx.html">NetworkX</a></p>
+                    <p><a href="./pandas-profiling.html">Pandas&nbsp;Profiling</a></p>
+                    <p><a href="./patsy.html">Patsy</a></p>
+                    <p><a href="./prophet.html">Prophet</a></p>
+                    <p><a href="./scipy.html">Scipy</a></p>
+                    <p><a href="./seaborn.html">seaborn</a></p>
+                    <p><a href="./spark.html">Spark</a></p>
+                    <p><a href="./statsmodels.html">statsmodels</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">5</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-temporel">temporel</a>
+                </h5>
+            </div>
+            <div id="collapse-temporel" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./arrow.html">Arrow</a></p>
+                    <p><a href="./lifelines.html">Lifelines</a></p>
+                    <p><a href="./lifetimes.html">Lifetimes</a></p>
+                    <p><a href="./numpy.html">NumPy</a></p>
+                    <p><a href="./pendulum.html">Pendulum</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">4</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-validation">validation</a>
+                </h5>
+            </div>
+            <div id="collapse-validation" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./cerberus.html">Cerberus</a></p>
+                    <p><a href="./orange.html">Orange</a></p>
+                    <p><a href="./schema.html">Schema</a></p>
+                    <p><a href="./voluptuous.html">Voluptuous</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">15</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-visualisation">visualisation</a>
+                </h5>
+            </div>
+            <div id="collapse-visualisation" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="./apache-superset.html">Apache&nbsp;Superset</a></p>
+                    <p><a href="./bokeh.html">Bokeh</a></p>
+                    <p><a href="./folium.html">Folium</a></p>
+                    <p><a href="./graph-tool.html">graph-tool</a></p>
+                    <p><a href="./holoviews.html">HoloViews</a></p>
+                    <p><a href="./hypertools.html">HyperTools</a></p>
+                    <p><a href="./lifelines.html">Lifelines</a></p>
+                    <p><a href="./lifetimes.html">Lifetimes</a></p>
+                    <p><a href="./matplotlib.html">Matplotlib</a></p>
+                    <p><a href="./mlflow.html">MLflow</a></p>
+                    <p><a href="./orange.html">Orange</a></p>
+                    <p><a href="./pattern.html">Pattern</a></p>
+                    <p><a href="./plotlypy.html">plotly.py</a></p>
+                    <p><a href="./plotnine.html">Plotnine</a></p>
+                    <p><a href="./seaborn.html">seaborn</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </ul>
+</section>
+<!-- End Sidebar -->          </aside>
+        </div>
+    </div>
+</div>
+<!-- End Content Container -->
+
+<footer>
+   <div class="container-fluid navbar-default">
+     <div class="text-center">
+
+     Développé à l'université de Mons.
+     <a href="https://web.umons.ac.be/fr/">
+         <img src="/catalogue-python/templates/logo_umons.png" alt="UMons" class="img-thumbnail" style="height:50px;">
+     </a>
+     <hr>
+     Le Fonds européen de développement régional et la Wallonie investissent dans votre avenir.
+     <br>
+     Coût total : 1.703.375.379€ dont FEDER : 681.350.152€ et Wallonie : 1.022.025.227€
+     <br>
+     Programme opérationnel FEDER « Wallonie-2020.eu »– INNOVATION 2020 –
+     <br>
+     <hr>
+
+      <a href="http://www.enmieux.be/">
+        <img src="/catalogue-python/templates/logo_enmieux.png" alt="En Mieux" class="img-thumbnail" style="height:120px;">
+      </a>
+      <a href="http://www.fse.be/">
+        <img src="/catalogue-python/templates/logo_fse.png" alt="Fonds Social Européen " class="img-thumbnail" style="height:120px;">
+      </a>
+      <a href="https://www.wallonie.be/">
+        <img src="/catalogue-python/templates/logo_wallonie.png" alt="Wallonie" class="img-thumbnail" style="height:120px;">
+      </a>
+      <hr>
+
+
+
+      </div>
+
+
+
+      <hr>
+      <div class="row">
+         <div class="col-xs-10"> 
+            Utilise <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Retour au début</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Articles by  - Catalogue de librairies Python pour l'analyse de données</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+        <meta name="author" content="" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="Catalogue de librairies Python pour l'analyse de données" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Catalogue de librairies Python pour l'analyse de données"/>
+        <meta property="og:url" content=".."/>
+        <meta property="og:description" content="Catalogue de librairies Python pour l'analyse de données"/>
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="../theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="../theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="../theme/css/pygments/native.css" rel="stylesheet">
+        <link href="../theme/css/typogrify.css" rel="stylesheet">
+    <link rel="stylesheet" href="../theme/css/style.css" type="text/css"/>
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="../" class="navbar-brand">
+Catalogue de librairies Python pour l'analyse de données            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<!-- Banner -->
+<!-- End Banner -->
+
+<!-- Content Container -->
+
+
+
+<div class="container-fluid">
+    <div class="row">
+<div class="col-sm-3"></div>
+        <div class="col-sm-6">
+<article>
+    <h2><a href="../prophet.html">Prophet</a></h2>
+    <div class="summary"><p>Prophet est une librairie ciblant les marchés financiers. Son objectif est de proposer une interface simple mais flexible pour permettre au développeur de se concentrer sur la modélisation de stratégies financières, de gestion de portfolio, ou des test&nbsp;rétro-actif.</p>
+<p>Pour ce faire, Prophet propose différents générateurs de données et permet …</p>
+        <a class="btn btn-default btn-xs" href="../prophet.html">plus ...</a>
+    </div>
+</article>
+<hr/><article>
+    <h2><a href="../pyspider.html">pyspider</a></h2>
+    <div class="summary"><p>pyspider est une librairie proposant un robot d&#8217;indexation paramétrable en Python. Une fois le script rédigé, une interface web permet d&#8217;explorer les résultats et processus en cours. L&#8217;architecture de pyspider permet une utilisation&nbsp;distribuée.</p>
+<p><img alt="Alt Text" src="../res/pyspider.png"></p>
+<p>Les différentes informations des pages webs sont disponibles sous le format pyquery, semblable …</p>
+        <a class="btn btn-default btn-xs" href="../pyspider.html">plus ...</a>
+    </div>
+</article>
+<hr/><article>
+    <h2><a href="../igraph.html">igraph</a></h2>
+    <div class="summary"><p>igraph est une librairie efficace pour la recherche et l&#8217;analyse de réseaux. Le paquet logiciel python-igraph propose une interface pour accéder à ses différentes&nbsp;fonctionnalités.</p>
+<p>La librairie de base, en C, est à installer et compiler indépendemment du module&nbsp;Python.</p>
+<p>Parmi les-dites fonctionnalités, il y a la possibilité de …</p>
+        <a class="btn btn-default btn-xs" href="../igraph.html">plus ...</a>
+    </div>
+</article>
+<hr/><article>
+    <h2><a href="../pytorch.html">PyTorch</a></h2>
+    <div class="summary"><p>PyTorch est une librairie proposant des tenseurs et des réseaux de neurones dynamiques rapides grâce à l&#8217;accélération graphique (<span class="caps">GPU</span>).</p>
+<p>La librairie est principalement utilisée pour&nbsp;soit:</p>
+<ul>
+<li>Remplacer NumPy et profiter de la dite accélération&nbsp;graphique</li>
+<li>Faire de la recherche en deep learning, grâce à sa flexibilité et sa&nbsp;rapidité …</li></ul>
+        <a class="btn btn-default btn-xs" href="../pytorch.html">plus ...</a>
+    </div>
+</article>
+<hr/><article>
+    <h2><a href="../requests.html">Requests</a></h2>
+    <div class="summary"><p>Requests permet d&#8217;envoyer des requêtes <span class="caps">HTTP</span>/1.1 extrêment facilement. La librairie permet de ne pas avoir à ajouter des commandes de requêtes aux urls ou d&#8217;encoder les données d&#8217;un <span class="caps">POST</span>. Le maintient de la connexion et la mise en commun des ressources est automatisée grâce à …</p>
+        <a class="btn btn-default btn-xs" href="../requests.html">plus ...</a>
+    </div>
+</article>
+<hr/><article>
+    <h2><a href="../schema.html">Schema</a></h2>
+    <div class="summary"><p>Schema est une librairie de data validation. Elle permet de valider des structures provenant de fichiers de configuration, formulaires, services en lignes, commandes dans le terminal, <span class="caps">JSON</span>/<span class="caps">YAML</span>, le tout sous forme de types&nbsp;Python.</p>
+<p>Schema valide&nbsp;:</p>
+<ul>
+<li>Le&nbsp;type</li>
+<li>Les fonctions (ou objets avec une méthode <strong>call</strong>) : est-ce que ça …</li></ul>
+        <a class="btn btn-default btn-xs" href="../schema.html">plus ...</a>
+    </div>
+</article>
+<hr/><article>
+    <h2><a href="../schematics.html">Schematics</a></h2>
+    <div class="summary"><p>Schematics propose des solutions pour décrire des données grâce à l&#8217;utilisation d&#8217;un modèle. Ce modèle permet de définir les types et certains paramètres de validation (longueur, valeur,&nbsp;&#8230;).</p>
+<p>Une fois le modèle créé et les données rentrées (dynamiquement ou via un import), celles-ci peuvent être validée et exportée. L …</p>
+        <a class="btn btn-default btn-xs" href="../schematics.html">plus ...</a>
+    </div>
+</article>
+<hr/><article>
+    <h2><a href="../scikit-learn.html">scikit-learn</a></h2>
+    <div class="summary"><p>scikit-learn est un module Python de machine learning reposant sur SciPy, NumPy et matplotlib (pour le&nbsp;rendu).</p>
+<p>scikit-learn propose des outils puissant pour l&#8217;analyse et la prédiction de&nbsp;données.</p>
+<p>Parmi les outils proposés&nbsp;:</p>
+<ul>
+<li>Des méthodes de&nbsp;classification</li>
+<li>Des outils de&nbsp;régression</li>
+<li>Du&nbsp;clustering</li>
+<li>Des méthodes de factorisation de matrices …</li></ul>
+        <a class="btn btn-default btn-xs" href="../scikit-learn.html">plus ...</a>
+    </div>
+</article>
+<hr/><article>
+    <h2><a href="../scipy.html">Scipy</a></h2>
+    <div class="summary"><p>SciPy, la librairie, est un ensemble de modules mathématiques et scientifiques. En particulier, il y a des modules ayant pour sujet&nbsp;:</p>
+<ul>
+<li>Les&nbsp;statistiques</li>
+<li>L&#8217;optimisation</li>
+<li>L&#8217;intégration</li>
+<li>L&#8217;algèbre&nbsp;linéaire</li>
+<li>Les transformées de&nbsp;Fourier</li>
+<li>Le traitement du&nbsp;signal</li>
+<li>La résolution d&#8217;équations différentielles&nbsp;ordinaires</li>
+<li>L&#8217;interpolation</li>
+<li>Le traitement de&nbsp;fichiers …</li></ul>
+        <a class="btn btn-default btn-xs" href="../scipy.html">plus ...</a>
+    </div>
+</article>
+<hr/><article>
+    <h2><a href="../scrapy.html">Scrapy</a></h2>
+    <div class="summary"><p>Scrapy est un robot d&#8217;indexation et de récupération de données&nbsp;structurées.</p>
+<p>Scrapy peut être utilisé de la sorte pour du data mining, de la surveillance de site ou pour des tests&nbsp;automatisés.</p>
+<p>Pour lancer une activité, il faut créer un processus (nommé spider), paramétrable en quelques lignes&nbsp;:</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">scrapy …</span></pre></div>
+        <a class="btn btn-default btn-xs" href="../scrapy.html">plus ...</a>
+    </div>
+</article>
+<hr/>
+        <ul class="pagination">
+                <li class="prev"><a href="../author/.html4">&laquo;</a>
+                </li>
+                    <li class=""><a
+                            href="../author/.html">1</a></li>
+                    <li class=""><a
+                            href="../author/.html2">2</a></li>
+                    <li class=""><a
+                            href="../author/.html3">3</a></li>
+                    <li class=""><a
+                            href="../author/.html4">4</a></li>
+                    <li class="active"><a
+                            href="../author/.html5">5</a></li>
+                    <li class=""><a
+                            href="../author/.html6">6</a></li>
+                <li class="next"><a
+                        href="../author/.html6">&raquo;</a></li>
+        </ul>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+          <aside>
+<!-- Sidebar -->
+<section class="well well-sm">
+  <ul class="list-group list-group-flush">
+    <div class="panel-group" id="accordion">        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">7</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-acquisition">acquisition</a>
+                </h5>
+            </div>
+            <div id="collapse-acquisition" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../beautiful-soup.html">Beautiful&nbsp;Soup</a></p>
+                    <p><a href="../dataset.html">Dataset</a></p>
+                    <p><a href="../pattern.html">Pattern</a></p>
+                    <p><a href="../pyspider.html">pyspider</a></p>
+                    <p><a href="../requests.html">Requests</a></p>
+                    <p><a href="../scrapy.html">Scrapy</a></p>
+                    <p><a href="../spark.html">Spark</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">14</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-autre-outil">autre outil</a>
+                </h5>
+            </div>
+            <div id="collapse-autre-outil" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../arrow.html">Arrow</a></p>
+                    <p><a href="../cupy.html">CuPy</a></p>
+                    <p><a href="../dataset.html">Dataset</a></p>
+                    <p><a href="../graph-tool.html">graph-tool</a></p>
+                    <p><a href="../mlflow.html">MLflow</a></p>
+                    <p><a href="../networkx.html">NetworkX</a></p>
+                    <p><a href="../patsy.html">Patsy</a></p>
+                    <p><a href="../peewee.html">Peewee</a></p>
+                    <p><a href="../pendulum.html">Pendulum</a></p>
+                    <p><a href="../prophet.html">Prophet</a></p>
+                    <p><a href="../igraph.html">igraph</a></p>
+                    <p><a href="../requests.html">Requests</a></p>
+                    <p><a href="../schematics.html">Schematics</a></p>
+                    <p><a href="../toolz.html">toolz</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">4</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-calcul-numerique">calcul numérique</a>
+                </h5>
+            </div>
+            <div id="collapse-calcul-numerique" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../numexpr.html">NumExpr</a></p>
+                    <p><a href="../pytorch.html">PyTorch</a></p>
+                    <p><a href="../scipy.html">Scipy</a></p>
+                    <p><a href="../sympy.html">Sympy</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">4</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-dashboard">dashboard</a>
+                </h5>
+            </div>
+            <div id="collapse-dashboard" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../apache-superset.html">Apache&nbsp;Superset</a></p>
+                    <p><a href="../bokeh.html">Bokeh</a></p>
+                    <p><a href="../dask.html">Dask</a></p>
+                    <p><a href="../luigi.html">Luigi</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">4</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-data-mining">data mining</a>
+                </h5>
+            </div>
+            <div id="collapse-data-mining" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../gensim.html">Gensim</a></p>
+                    <p><a href="../orange.html">Orange</a></p>
+                    <p><a href="../scrapy.html">Scrapy</a></p>
+                    <p><a href="../spark.html">Spark</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">4</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-environnement-scientifique">environnement scientifique</a>
+                </h5>
+            </div>
+            <div id="collapse-environnement-scientifique" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../jupyterlab.html">JupyterLab</a></p>
+                    <p><a href="../orange.html">Orange</a></p>
+                    <p><a href="../scipy.html">Scipy</a></p>
+                    <p><a href="../spyder.html">Spyder</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">6</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-exploration">exploration</a>
+                </h5>
+            </div>
+            <div id="collapse-exploration" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../apache-superset.html">Apache&nbsp;Superset</a></p>
+                    <p><a href="../datasette.html">Datasette</a></p>
+                    <p><a href="../orange.html">Orange</a></p>
+                    <p><a href="../pandas-profiling.html">Pandas&nbsp;Profiling</a></p>
+                    <p><a href="../plotlypy.html">plotly.py</a></p>
+                    <p><a href="../igraph.html">igraph</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">5</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-generation">generation</a>
+                </h5>
+            </div>
+            <div id="collapse-generation" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../faker.html">Faker</a></p>
+                    <p><a href="../graph-tool.html">graph-tool</a></p>
+                    <p><a href="../mimesis.html">Mimesis</a></p>
+                    <p><a href="../networkx.html">NetworkX</a></p>
+                    <p><a href="../prophet.html">Prophet</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">9</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-machine-learning">machine learning</a>
+                </h5>
+            </div>
+            <div id="collapse-machine-learning" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../autokeras.html">AutoKeras</a></p>
+                    <p><a href="../chainer.html">Chainer</a></p>
+                    <p><a href="../keras.html">Keras</a></p>
+                    <p><a href="../natural-language-toolkit-nltk.html">Natural Language Toolkit (<span class="caps">NLTK</span>)</a></p>
+                    <p><a href="../pattern.html">Pattern</a></p>
+                    <p><a href="../pytorch.html">PyTorch</a></p>
+                    <p><a href="../scikit-learn.html">scikit-learn</a></p>
+                    <p><a href="../spark.html">Spark</a></p>
+                    <p><a href="../tensorflow.html">TensorFlow</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">14</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-manipulation">manipulation</a>
+                </h5>
+            </div>
+            <div id="collapse-manipulation" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../arrow.html">Arrow</a></p>
+                    <p><a href="../cupy.html">CuPy</a></p>
+                    <p><a href="../dask.html">Dask</a></p>
+                    <p><a href="../graph-tool.html">graph-tool</a></p>
+                    <p><a href="../networkx.html">NetworkX</a></p>
+                    <p><a href="../numpy.html">NumPy</a></p>
+                    <p><a href="../orange.html">Orange</a></p>
+                    <p><a href="../pandas.html">pandas</a></p>
+                    <p><a href="../peewee.html">Peewee</a></p>
+                    <p><a href="../pendulum.html">Pendulum</a></p>
+                    <p><a href="../pytorch.html">PyTorch</a></p>
+                    <p><a href="../schematics.html">Schematics</a></p>
+                    <p><a href="../scikit-learn.html">scikit-learn</a></p>
+                    <p><a href="../toolz.html">toolz</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">6</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-nlp">nlp</a>
+                </h5>
+            </div>
+            <div id="collapse-nlp" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../gensim.html">Gensim</a></p>
+                    <p><a href="../natural-language-toolkit-nltk.html">Natural Language Toolkit (<span class="caps">NLTK</span>)</a></p>
+                    <p><a href="../pattern.html">Pattern</a></p>
+                    <p><a href="../polyglot.html">Polyglot</a></p>
+                    <p><a href="../spacy.html">spaCy</a></p>
+                    <p><a href="../textblob.html">TextBlob</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">5</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-pipeline">pipeline</a>
+                </h5>
+            </div>
+            <div id="collapse-pipeline" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../dask.html">Dask</a></p>
+                    <p><a href="../joblib.html">Joblib</a></p>
+                    <p><a href="../jupyterlab.html">JupyterLab</a></p>
+                    <p><a href="../luigi.html">Luigi</a></p>
+                    <p><a href="../mlflow.html">MLflow</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">11</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-statistique">statistique</a>
+                </h5>
+            </div>
+            <div id="collapse-statistique" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../graph-tool.html">graph-tool</a></p>
+                    <p><a href="../lifelines.html">Lifelines</a></p>
+                    <p><a href="../lifetimes.html">Lifetimes</a></p>
+                    <p><a href="../networkx.html">NetworkX</a></p>
+                    <p><a href="../pandas-profiling.html">Pandas&nbsp;Profiling</a></p>
+                    <p><a href="../patsy.html">Patsy</a></p>
+                    <p><a href="../prophet.html">Prophet</a></p>
+                    <p><a href="../scipy.html">Scipy</a></p>
+                    <p><a href="../seaborn.html">seaborn</a></p>
+                    <p><a href="../spark.html">Spark</a></p>
+                    <p><a href="../statsmodels.html">statsmodels</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">5</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-temporel">temporel</a>
+                </h5>
+            </div>
+            <div id="collapse-temporel" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../arrow.html">Arrow</a></p>
+                    <p><a href="../lifelines.html">Lifelines</a></p>
+                    <p><a href="../lifetimes.html">Lifetimes</a></p>
+                    <p><a href="../numpy.html">NumPy</a></p>
+                    <p><a href="../pendulum.html">Pendulum</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">4</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-validation">validation</a>
+                </h5>
+            </div>
+            <div id="collapse-validation" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../cerberus.html">Cerberus</a></p>
+                    <p><a href="../orange.html">Orange</a></p>
+                    <p><a href="../schema.html">Schema</a></p>
+                    <p><a href="../voluptuous.html">Voluptuous</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">15</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-visualisation">visualisation</a>
+                </h5>
+            </div>
+            <div id="collapse-visualisation" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><a href="../apache-superset.html">Apache&nbsp;Superset</a></p>
+                    <p><a href="../bokeh.html">Bokeh</a></p>
+                    <p><a href="../folium.html">Folium</a></p>
+                    <p><a href="../graph-tool.html">graph-tool</a></p>
+                    <p><a href="../holoviews.html">HoloViews</a></p>
+                    <p><a href="../hypertools.html">HyperTools</a></p>
+                    <p><a href="../lifelines.html">Lifelines</a></p>
+                    <p><a href="../lifetimes.html">Lifetimes</a></p>
+                    <p><a href="../matplotlib.html">Matplotlib</a></p>
+                    <p><a href="../mlflow.html">MLflow</a></p>
+                    <p><a href="../orange.html">Orange</a></p>
+                    <p><a href="../pattern.html">Pattern</a></p>
+                    <p><a href="../plotlypy.html">plotly.py</a></p>
+                    <p><a href="../plotnine.html">Plotnine</a></p>
+                    <p><a href="../seaborn.html">seaborn</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </ul>
+</section>
+<!-- End Sidebar -->          </aside>
+        </div>
+    </div>
+</div>
+<!-- End Content Container -->
+
+<footer>
+   <div class="container-fluid navbar-default">
+     <div class="text-center">
+
+     Développé à l'université de Mons.
+     <a href="https://web.umons.ac.be/fr/">
+         <img src="/catalogue-python/templates/logo_umons.png" alt="UMons" class="img-thumbnail" style="height:50px;">
+     </a>
+     <hr>
+     Le Fonds européen de développement régional et la Wallonie investissent dans votre avenir.
+     <br>
+     Coût total : 1.703.375.379€ dont FEDER : 681.350.152€ et Wallonie : 1.022.025.227€
+     <br>
+     Programme opérationnel FEDER « Wallonie-2020.eu »– INNOVATION 2020 –
+     <br>
+     <hr>
+
+      <a href="http://www.enmieux.be/">
+        <img src="/catalogue-python/templates/logo_enmieux.png" alt="En Mieux" class="img-thumbnail" style="height:120px;">
+      </a>
+      <a href="http://www.fse.be/">
+        <img src="/catalogue-python/templates/logo_fse.png" alt="Fonds Social Européen " class="img-thumbnail" style="height:120px;">
+      </a>
+      <a href="https://www.wallonie.be/">
+        <img src="/catalogue-python/templates/logo_wallonie.png" alt="Wallonie" class="img-thumbnail" style="height:120px;">
+      </a>
+      <hr>
+
+
+
+      </div>
+
+
+
+      <hr>
+      <div class="row">
+         <div class="col-xs-10"> 
+            Utilise <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Retour au début</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="../theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="../theme/js/respond.min.js"></script>
+
+
+
+
+</body>
+</html>
