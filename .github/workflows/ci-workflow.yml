@@ -37,6 +37,8 @@ jobs:
             pip install -r requirements.txt
 
       - name: Metadata parsing, API fetching
+        env:
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
         run: |
           python metadataparser.py
     
