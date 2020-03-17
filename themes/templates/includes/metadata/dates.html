@@ -1,0 +1,30 @@
+<h3>Détails</h3>
+
+{% if article and article.created %}
+<span class="label label-default">Première version</span><br>
+<span class="modified">
+    <i class="fa fa-calendar"></i><time datetime="{{ article.created }}"> {{ article.created }}</time>
+</span>
+<br/>
+{% endif %}
+
+{% if article and article.latest %}
+<span class="label label-default">Dernière version</span><br>
+<span class="modified">
+    <i class="fa fa-calendar"></i><time datetime="{{ article.latest }}"> {{ article.latest }}</time>
+</span>
+<br/>
+{% endif %}
+
+{% if article and article.version %}
+<span class="label label-default">Dernière version</span><br>
+<span class="modified">{{ article.version }}</span>
+<br/>
+{% endif %}
+
+
+{% include 'includes/licenseslist.html' %}
+<br/>
+
+{% include 'includes/taglist.html' %}
+<br/>

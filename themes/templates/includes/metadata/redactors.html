@@ -1,0 +1,20 @@
+<h3>Fiche</h3>
+
+{% if article and article.sheet_creation %}
+<span class="label label-default">Création</span><br>
+<span class="published">
+    <i class="fa fa-calendar"></i><time datetime="{{ article.sheet_creation}}"> {{ article.sheet_creation }}</time>
+</span>
+<br/>
+{% endif %}
+
+{% if article and article.updated %}
+<span class="label label-default">Mise à jour</span><br>
+<span class="published">
+    <i class="fa fa-calendar"></i><time datetime="{{ article.updated}}"> {{ article.updated }}</time>
+</span>
+<br/>
+{% endif %}
+
+
+{% include 'includes/redactorslist.html' %}

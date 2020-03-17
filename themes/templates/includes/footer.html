@@ -1,0 +1,56 @@
+<footer>
+   <div class="container{% if BOOTSTRAP_FLUID %}-fluid{% endif %} navbar-default">
+     <div class="text-center">
+
+     Développé à l'université de Mons.
+     <a href="https://web.umons.ac.be/fr/">
+         <img src="/catalogue-python/templates/logo_umons.png" alt="UMons" class="img-thumbnail" style="height:50px;">
+     </a>
+     <hr>
+     Le Fonds européen de développement régional et la Wallonie investissent dans votre avenir.
+     <br>
+     Coût total : 1.703.375.379€ dont FEDER : 681.350.152€ et Wallonie : 1.022.025.227€
+     <br>
+     Programme opérationnel FEDER « Wallonie-2020.eu »– INNOVATION 2020 –
+     <br>
+     <hr>
+
+      <a href="http://www.enmieux.be/">
+        <img src="/catalogue-python/templates/logo_enmieux.png" alt="En Mieux" class="img-thumbnail" style="height:120px;">
+      </a>
+      <a href="http://www.fse.be/">
+        <img src="/catalogue-python/templates/logo_fse.png" alt="Fonds Social Européen " class="img-thumbnail" style="height:120px;">
+      </a>
+      <a href="https://www.wallonie.be/">
+        <img src="/catalogue-python/templates/logo_wallonie.png" alt="Wallonie" class="img-thumbnail" style="height:120px;">
+      </a>
+      <hr>
+
+
+
+      </div>
+
+
+
+      <hr>
+      <div class="row">
+         {% if articles %}
+             {% set copy_date = articles[0].latest %}
+         {% else %}
+            {% set copy_date = '' %}
+         {% endif %}
+         <div class="col-xs-10"> {{ AUTHOR }}
+            {{ _('Utilise') }} <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+            {%- if CC_LICENSE or CC_LICENSE_DERIVATIVES or CC_LICENSE_COMMERCIAL %}
+              {% from 'includes/cc-license.html' import cc_license_mark %}
+                <p><small>{{ cc_license_mark(cc_name=CC_LICENSE,derivatives=CC_LICENSE_DERIVATIVES,commercial=CC_LICENSE_COMMERCIAL,attr_markup=CC_ATTR_MARKUP,attr_props={'title':SITENAME,'name':article.author if article else AUTHOR,'url':SITEURL,'lang':DEFAULT_LANG}) }}</small></p>
+            {% elif CUSTOM_LICENSE %}
+              <p><small>{{ CUSTOM_LICENSE }}</small></p>
+            {% endif %}
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">{{ _('Retour au début') }}</a></p></div>
+      </div>
+   </div>
+</footer>

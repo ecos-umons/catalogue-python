@@ -1,0 +1,35 @@
+{% if article %}
+
+{% if articles.starts or articles.forks or articles.issues or article.pullrequests %}
+
+<h3>Stats</h3>
+
+{% if article.stars %}
+<span class="label label-default"><img src="/catalogue-python/templates/star.svg" style="margin-right: 3px">Stars</span><br>
+<span class="modified">{{ article.stars }}</span>
+<br/>
+{% endif %}
+
+{% if article.forks %}
+<span class="label label-default"><img src="/catalogue-python/templates/fork.svg" style="margin-right: 3px">Forks</span><br>
+<span class="modified">{{ article.forks }}</span>
+<br/>
+{% endif %}
+
+{% if article.issues %}
+<span class="label label-default"><img src="/catalogue-python/templates/issues.svg" style="margin-right: 3px">Issues</span><br>
+<span class="modified">{{ article.issues }}</span>
+<br/>
+{% endif %}
+
+{% if article.pullrequests %}
+<span class="label label-default"><img src="/catalogue-python/templates/pr.svg" style="margin-right: 3px">Pull requests</span><br>
+<span class="modified">{{ article.pullrequests }}</span>
+<br/>
+{% endif %}
+
+
+{% endif %}
+
+
+{% endif %}

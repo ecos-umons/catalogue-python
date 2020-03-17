@@ -1,0 +1,25 @@
+<!-- Sidebar -->
+<section class="well well-sm">
+  <ul class="list-group list-group-flush">
+    <div class="panel-group" id="accordion">
+        {%- for tag, articles in tags|sort %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="badge pull-right">{{ articles|count }}</span>
+                <h5 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-{{tag.slug}}">{{ tag }}</a>
+                </h5>
+            </div>
+            <div id="collapse-{{tag.slug}}" class="panel-collapse collapse">
+                <div class="panel-body">
+                    {% for article in articles %}
+                    <p><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+  </ul>
+</section>
+<!-- End Sidebar -->

@@ -1,0 +1,10 @@
+{% if article.licenses %}
+	<span class="label label-default">Licenses</span><br>
+	{% set llist = article.licenses.split(';') %}
+	{% for license in llist %}
+		{{ license }}
+    {% if not loop.last %}
+		 		/
+  	{% endif %}
+	{% endfor %}
+{% endif %}

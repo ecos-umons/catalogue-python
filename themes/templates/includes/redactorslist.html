@@ -1,0 +1,10 @@
+{% if article.redactors %}
+	<span class="label label-default">Rédacteurs</span><br>
+	{% set reclist = article.redactors.split(';') %}
+	{% for redactor in reclist %}
+		{{ redactor }}
+    {% if not loop.last %}
+		 		/
+  	{% endif %}
+	{% endfor %}
+{% endif %}

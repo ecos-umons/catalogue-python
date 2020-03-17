@@ -1,0 +1,25 @@
+<h3>Liens</h3>
+
+{% if article and article.pip %}
+<span class="label label-default">Pip</span><br>
+<span class="modified"><a href="https://pypi.org/project/{{ article.pip }}">{{ article.pip }}</a></span>
+<br/>
+{% endif %}
+
+{% if article and article.website_url %}
+<span class="label label-default">Site web</span><br>
+<span class="modified"><a href="{{ article.website_url }}">{{ article.website_url }}</a></span>
+<br/>
+{% endif %}
+
+{% if article and article.source_url %}
+<span class="label label-default">Sources</span><br>
+<span class="modified"><a href="{{ article.source_url }}">{{ article.source_url }}</a></span>
+<br/>
+{% endif %}
+
+{% if article and article.documentation_url %}
+<span class="label label-default">Documentation</span><br>
+<span class="modified"><a href="{{ article.documentation_url }}">{{ article.documentation_url }}</a></span>
+<br/>
+{% endif %}

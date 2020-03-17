@@ -1,0 +1,80 @@
+<footer class="post-info">
+
+    {% if article and article.updated %}
+    <span class="label label-default">Mise à jour</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="{{ article.updated}}"> {{ article.updated }}</time>
+    </span>
+    {% endif %}
+
+    {% if article and article.modified %}
+    <span class="label label-default">Modifié</span>
+    <span class="modified">
+        <i class="fa fa-calendar"></i><time datetime="{{ article.modified }}"> {{ article.modified }}</time>
+    </span>
+    {% endif %}
+
+    {% if article and article.latest %}
+    <span class="label label-default">Dernière version</span>
+    <span class="modified">
+        <i class="fa fa-calendar"></i><time datetime="{{ article.latest }}"> {{ article.latest }}</time>
+    </span>
+    {% endif %}
+
+    {% if article and article.created %}
+    <span class="label label-default">Première version</span>
+    <span class="modified">
+        <i class="fa fa-calendar"></i><time datetime="{{ article.created }}"> {{ article.created }}</time>
+    </span>
+    {% endif %}
+
+    {% include 'includes/taglist.html' %}
+
+    {% if article and article.version %}
+    <span class="label label-default">Version</span>
+    <span class="modified">{{ article.version }}</span>
+    {% endif %}
+
+    {% if article and article.pip %}
+    <span class="label label-default">Pip</span>
+    <span class="modified">{{ article.pip }}</span>
+    {% endif %}
+
+    {% include 'includes/licenseslist.html' %}
+
+    {% if article and article.website_url %}
+    <span class="label label-default">Site web</span>
+    <span class="modified"><a href="{{ article.website_url }}">{{ article.website_url }}</a></span>
+    {% endif %}
+
+    {% if article and article.source_url %}
+    <span class="label label-default">Sources</span>
+    <span class="modified"><a href="{{ article.source_url }}">{{ article.source_url }}</a></span>
+    {% endif %}
+
+    {% if article and article.documentation_url %}
+    <span class="label label-default">Documentation</span>
+    <span class="modified"><a href="{{ article.documentation_url }}">{{ article.documentation_url }}</a></span>
+    {% endif %}
+
+    {% include 'includes/authorslist.html' %}
+
+    {% if article and article.stars %}
+    <span class="label label-default">Stars</span>
+    <span class="modified">{{ article.stars }}</span>
+    {% endif %}
+
+    {% if article and article.forks %}
+    <span class="label label-default">Forks</span>
+    <span class="modified">{{ article.forks }}</span>
+    {% endif %}
+
+    {% if article and article.issues %}
+    <span class="label label-default">Problèmes et propositions</span>
+    <span class="modified">{{ article.issues }}</span>
+    {% endif %}
+
+
+    {% import 'includes/translations.html' as translations with context %}
+    {{ translations.translations_for(article) }}
+</footer><!-- /.post-info -->

@@ -1,0 +1,8 @@
+{% if articles %}
+    <h2>Ajouté récemment</h2>
+    {% for article in articles|sort(attribute='sheet_creation', reverse = True) %}
+        {% if loop.index <= 10 %}
+            {% include 'includes/article_iteration.html' %}
+        {% endif %}
+    {% endfor %}
+{% endif %}

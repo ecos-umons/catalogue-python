@@ -1,0 +1,8 @@
+{% if articles %}
+    <h2>Modifié récemment</h2>
+    {% for article in articles|sort(attribute='updated', reverse = True) %}
+        {% if loop.index <= 10 %}
+            {% include 'includes/article_iteration.html' %}
+        {% endif %}
+    {% endfor %}
+{% endif %}

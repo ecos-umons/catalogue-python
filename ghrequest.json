@@ -1,0 +1,15 @@
+{
+  repository(name: $repo, owner: $owner) {
+    url
+    forkCount
+    issues(states: OPEN) {
+      totalCount
+    }
+    pullRequests(states: OPEN) {
+      totalCount
+    }
+    stargazers {
+      totalCount
+    }
+  }
+}
