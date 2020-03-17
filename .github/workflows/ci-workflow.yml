@@ -2,7 +2,7 @@
 
 name: CI
 
-# Controls when the action will run. Triggers the workflow on push or pull request 
+# Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
@@ -41,7 +41,7 @@ jobs:
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
         run: |
           python metadataparser.py
-    
+
       - name: Pelican build
         run: |
           pelican
@@ -54,4 +54,3 @@ jobs:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: output # The folder the action should deploy.
           COMMIT_MESSAGE: Github Action
-          DEBUG: true 

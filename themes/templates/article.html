@@ -2,7 +2,7 @@
 {% block title %}{{ article.title|striptags }} - {{ SITENAME }}{% endblock %}
 {% block html_lang %}{{ article.lang }}{% endblock %}
 
-{% block github %}{% set filename = article.slug.split('/')[-1] %}<a href="https://github.com/BenjaminAndre/catalogue-python/edit/sources/content/markdowns/{{ filename }}.md">
+{% block github %}{% set filename = article.slug.split('/')[-1] %}<a href="https://github.com/ecos-umons/catalogue-python/edit/sources/content/markdowns/{{ filename }}.md">
   <img src="/catalogue-python/templates/github.png" alt="Github" class="img-thumbnail" style="height:40px;">
 </a>{% endblock %}
 

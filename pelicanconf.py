@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = ''
 SITENAME = 'Catalogue de librairies Python pour l\'analyse de données'
 SITESUBTITLE = 'University of Mons'
-SITEURL = 'https://benjaminandre.github.io'
+SITEURL = 'https://ecos-umons.github.io'
 TIMEZONE = 'Europe/Paris'
 DEFAULT_DATE_FORMAT = ('%A %d %B %Y')
 DEFAULT_DATE = 'fs'
