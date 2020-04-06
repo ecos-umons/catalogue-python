@@ -37,6 +37,8 @@ DISPLAY_TAGS_INLINE = True
 DISPLAY_CATEGORIES_ON_MENU = False
 BOOTSTRAP_FLUID = True #for full width
 ARTICLE_ORDER_BY = 'filename'
+TEMPLATE_PAGES = {'all.html': 'all.html'}
+
 
 ARTICLE_PATHS = ['markdowns', 'reread']
 STATIC_PATHS = ['static', 'res', 'templates']  # Relative to /content/
