@@ -161,7 +161,12 @@
                 {% endif %}
             </ul>
             <ul class="nav navbar-nav navbar-right">
+
+            <li><a href="{{ SITEURL }}/tags">Liste des catégories</a></li>
+
             {% block github %}{% endblock %}
+
+            
             {% if 'tipue_search' in PLUGINS %}
               <li><span>
                 <form class="navbar-search" action="{{ SEARCH_URL | default('/search.html') }}">

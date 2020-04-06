@@ -119,7 +119,6 @@ Certaines librairies ont déjà été considérées puis rejetées pour des rais
 
 * [Pelican](https://github.com/getpelican/pelican) - Moteur de templates
 * [DandyDev](https://github.com/DandyDev) - Thème Bootstrap pour Pelican
-* [Travis CI](https://travis-ci.org/) - Outil d'intégration continue
 
 ## Contribuer
 
