@@ -20,7 +20,7 @@ Orange est un système de datamining composé de différents sous-modules. Sont 
 * des techniques de génération de modèle
 * Une interface graphique et une API intuitives
 
-Le module Python est disponible séparemment de l'interface graphique. Celle reste pertinente pour créer une pipeline facilement, d'y manipuler les données, d'y adapter un modèle et de la valider.
+Le module Python est disponible séparément de l'interface graphique. Celle-ci reste pertinente pour créer une pipeline facilement, y manipuler les données, y adapter un modèle et la valider.
 
 La visualisation et l'exploration sont facilitées par des méthodes intelligentes. Des distributions de probabilités, arbres de décision, clusters hiérarchiques, heatmaps, et aussi des représentation de données multidimensionnelles sont proposées. Toutes sont interactives.
 
