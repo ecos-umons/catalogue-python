@@ -79,6 +79,14 @@ Catalogue de librairies Python pour l'analyse de données            </a>
     </div>
 </article>
 <hr/><article>
+    <h2><a href="../dtale.html">dtale</a></h2>
+    <div class="summary"><p>D-Tale est la combinaison d&#8217;un backend Flask et d&#8217;un frontend React pour apporter un moyen facile de visualiser et d&#8217;analyser les structures de données de Pandas. 
+Il s&#8217;intègre parfaitement aux notebooks&nbsp;ipython/jupyter. </p>
+<p>Actuellement, cet outil prend en charge des objets Pandas tels que DataFrame, Series …</p>
+        <a class="btn btn-default btn-xs" href="../dtale.html">plus ...</a>
+    </div>
+</article>
+<hr/><article>
     <h2><a href="../faker.html">Faker</a></h2>
     <div class="summary"><p>Faker est un module qui génère des données fictives. Ces données peuvent servir à peupler une base de données ou générer des documents <span class="caps">XML</span> corrects. Faker permet aussi de faire un test de passage à l&#8217;échelle de la persistance de données ou d&#8217;anonymiser des données de&nbsp;production.</p>
 <p>Faker …</p>
@@ -132,15 +140,6 @@ Catalogue de librairies Python pour l'analyse de données            </a>
     <h2><a href="../jupyterlab.html">JupyterLab</a></h2>
     <div class="summary"><p>JupyterLab est un environnement modulable proposant une interface web pour le projet Jupyter. On y trouve un éditeur de code proposant des résultats interactifs et reproductibles. Cette modularité et les modules (terminal, console, navigateur de fichiers, &#8230;) en font une solution plus complète que Jupyter, destinée à remplacer les notebooks seuls …</p>
         <a class="btn btn-default btn-xs" href="../jupyterlab.html">plus ...</a>
-    </div>
-</article>
-<hr/><article>
-    <h2><a href="../keras.html">Keras</a></h2>
-    <div class="summary"><p>Keras est une librairie permettant la création de réseaux de neurones à haut-niveau. Keras utilise Tensorflow, <span class="caps">CNTK</span> ou Theano en interne. Le but est de permettre un prototypage rapide. Keras supporte les réseaux convolutifs, récursifs et tourne aussi bien sur le <span class="caps">CPU</span> que la <span class="caps">GPU</span>.</p>
-<p>Principes fondamentaux de Keras&nbsp;:</p>
-<ul>
-<li>Facilité …</li></ul>
-        <a class="btn btn-default btn-xs" href="../keras.html">plus ...</a>
     </div>
 </article>
 <hr/>
@@ -231,7 +230,7 @@ Catalogue de librairies Python pour l'analyse de données            </a>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <span class="badge pull-right">4</span>
+                <span class="badge pull-right">5</span>
                 <h5 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse-dashboard">dashboard</a>
                 </h5>
@@ -241,6 +240,7 @@ Catalogue de librairies Python pour l'analyse de données            </a>
                     <p><a href="../apache-superset.html">Apache&nbsp;Superset</a></p>
                     <p><a href="../bokeh.html">Bokeh</a></p>
                     <p><a href="../dask.html">Dask</a></p>
+                    <p><a href="../dtale.html">dtale</a></p>
                     <p><a href="../luigi.html">Luigi</a></p>
                 </div>
             </div>
@@ -279,7 +279,7 @@ Catalogue de librairies Python pour l'analyse de données            </a>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <span class="badge pull-right">6</span>
+                <span class="badge pull-right">7</span>
                 <h5 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse-exploration">exploration</a>
                 </h5>
@@ -288,6 +288,7 @@ Catalogue de librairies Python pour l'analyse de données            </a>
                 <div class="panel-body">
                     <p><a href="../apache-superset.html">Apache&nbsp;Superset</a></p>
                     <p><a href="../datasette.html">Datasette</a></p>
+                    <p><a href="../dtale.html">dtale</a></p>
                     <p><a href="../orange.html">Orange</a></p>
                     <p><a href="../pandas-profiling.html">Pandas&nbsp;Profiling</a></p>
                     <p><a href="../plotlypy.html">plotly.py</a></p>
@@ -396,13 +397,14 @@ Catalogue de librairies Python pour l'analyse de données            </a>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <span class="badge pull-right">11</span>
+                <span class="badge pull-right">12</span>
                 <h5 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse-statistique">statistique</a>
                 </h5>
             </div>
             <div id="collapse-statistique" class="panel-collapse collapse">
                 <div class="panel-body">
+                    <p><a href="../dtale.html">dtale</a></p>
                     <p><a href="../graph-tool.html">graph-tool</a></p>
                     <p><a href="../lifelines.html">Lifelines</a></p>
                     <p><a href="../lifetimes.html">Lifetimes</a></p>
@@ -452,7 +454,7 @@ Catalogue de librairies Python pour l'analyse de données            </a>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <span class="badge pull-right">15</span>
+                <span class="badge pull-right">16</span>
                 <h5 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse-visualisation">visualisation</a>
                 </h5>
@@ -461,6 +463,7 @@ Catalogue de librairies Python pour l'analyse de données            </a>
                 <div class="panel-body">
                     <p><a href="../apache-superset.html">Apache&nbsp;Superset</a></p>
                     <p><a href="../bokeh.html">Bokeh</a></p>
+                    <p><a href="../dtale.html">dtale</a></p>
                     <p><a href="../folium.html">Folium</a></p>
                     <p><a href="../graph-tool.html">graph-tool</a></p>
                     <p><a href="../holoviews.html">HoloViews</a></p>
