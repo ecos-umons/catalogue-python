@@ -1,4 +1,4 @@
-Title: Lifetimes
+Title: dtale
 Created: 2019-09-07
 Pip: dtale
 Tags: dashboard, exploration, statistique, visualisation
