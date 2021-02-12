@@ -71,7 +71,6 @@ Catalogue de librairies Python pour l'analyse de données            </a>
     <div class="row">
 <div class="col-sm-3"></div>
         <div class="col-sm-6">
-<hr/>
 <article>
     <h2><a href="../datasette.html">Datasette</a></h2>
     <div class="summary"><p>Datasette est un outil visant l&#8217;exploration et la publication de données. Le but est de pouvoir prendre n&#8217;importe quelles données et en faire un site web interactif, explorable, avec une <span class="caps">API</span>.</p>
@@ -79,8 +78,7 @@ Catalogue de librairies Python pour l'analyse de données            </a>
         <a class="btn btn-default btn-xs" href="../datasette.html">plus ...</a>
     </div>
 </article>
-<hr/>
-<article>
+<hr/><article>
     <h2><a href="../dtale.html">dtale</a></h2>
     <div class="summary"><p>D-Tale est la combinaison d&#8217;un backend Flask et d&#8217;un frontend React pour apporter un moyen facile de visualiser et d&#8217;analyser les structures de données de Pandas. 
 Il s&#8217;intègre parfaitement aux notebooks&nbsp;ipython/jupyter. </p>
@@ -88,67 +86,59 @@ Il s&#8217;intègre parfaitement aux notebooks&nbsp;ipython/jupyter. </p>
         <a class="btn btn-default btn-xs" href="../dtale.html">plus ...</a>
     </div>
 </article>
-<hr/>
-<article>
+<hr/><article>
     <h2><a href="../faker.html">Faker</a></h2>
     <div class="summary"><p>Faker est un module qui génère des données fictives. Ces données peuvent servir à peupler une base de données ou générer des documents <span class="caps">XML</span> corrects. Faker permet aussi de faire un test de passage à l&#8217;échelle de la persistance …</p>
         <a class="btn btn-default btn-xs" href="../faker.html">plus ...</a>
     </div>
 </article>
-<hr/>
-<article>
+<hr/><article>
     <h2><a href="../folium.html">Folium</a></h2>
     <div class="summary"><p>Folium permet de visualiser des données en Python dans des cartes leaflet.js interactives et&nbsp;stylisées.</p>
 <p>De cette façon, il est aisé de manipuler les données en python avant de les représenter sous divers types de cartes. Il est aussi …</p>
         <a class="btn btn-default btn-xs" href="../folium.html">plus ...</a>
     </div>
 </article>
-<hr/>
-<article>
+<hr/><article>
     <h2><a href="../gensim.html">Gensim</a></h2>
     <div class="summary"><p>Gensim est une librairie permettant de découvrir les thèmes d&#8217;un document, de les indexer et de repérer des similarités dans un grand volume de documents. Gensim fonctionne de façon non supervisée : l&#8217;utilisateur ne doit pas fournir de données …</p>
         <a class="btn btn-default btn-xs" href="../gensim.html">plus ...</a>
     </div>
 </article>
-<hr/>
-<article>
+<hr/><article>
     <h2><a href="../graph-tool.html">graph-tool</a></h2>
     <div class="summary"><p>graph-tool est un module permettant la manipulation et l&#8217;analyse statistique de graphes. Pour ce faire, de nombreuses opérations sont proposées, mais aussi des générateurs,&nbsp;&#8230;</p>
 <p>Malgré son apparence de module Python, les opérations critiques sont écrites en C++ et utilisant …</p>
         <a class="btn btn-default btn-xs" href="../graph-tool.html">plus ...</a>
     </div>
 </article>
-<hr/>
-<article>
+<hr/><article>
     <h2><a href="../holoviews.html">HoloViews</a></h2>
     <div class="summary"><p>HoloViews est une librairie travaillant sur la visualisation et l&#8217;analyse de données. Les représentations sont dérivées d&#8217;annotations qu&#8217;il faut ajouter aux&nbsp;données.</p>
 <p>HoloViews peut utiliser Bokeh, Matplotlib ou Plotly pour la représentation, ce qui permet une grande …</p>
         <a class="btn btn-default btn-xs" href="../holoviews.html">plus ...</a>
     </div>
 </article>
-<hr/>
-<article>
+<hr/><article>
     <h2><a href="../hypertools.html">HyperTools</a></h2>
     <div class="summary"><p>HyperTools est une librairie se concentrant sur la visualisation et la manipulation de données ayant de nombreuses variables. Le rendu est fait avec matplotlib et seaborn. La manipulation des données est faite via scikit-learn. Des exemples sont disponibles dans un …</p>
         <a class="btn btn-default btn-xs" href="../hypertools.html">plus ...</a>
     </div>
 </article>
-<hr/>
-<article>
+<hr/><article>
     <h2><a href="../joblib.html">Joblib</a></h2>
     <div class="summary"><p>Joblib est un ensemble d&#8217;outils légers pour le pipelining en Python. En particulier, Joblib offre un service de mise en cache de fonctions, de mémoization, et du parralélisme&nbsp;simple.</p>
 <p>De cette façon, Joblib promet d&#8217;éviter de calculer la …</p>
         <a class="btn btn-default btn-xs" href="../joblib.html">plus ...</a>
     </div>
 </article>
-<hr/>
-<article>
+<hr/><article>
     <h2><a href="../jupyterlab.html">JupyterLab</a></h2>
     <div class="summary"><p>JupyterLab est un environnement modulable proposant une interface web pour le projet Jupyter. On y trouve un éditeur de code proposant des résultats interactifs et reproductibles. Cette modularité et les modules (terminal, console, navigateur de fichiers, &#8230;) en font une solution …</p>
         <a class="btn btn-default btn-xs" href="../jupyterlab.html">plus ...</a>
     </div>
 </article>
-
+<hr/>
         <ul class="pagination">
                 <li class="prev"><a href="../author/.html">&laquo;</a>
                 </li>
