@@ -24,12 +24,7 @@
     Les contributions à la forme et au contenu sont les bienvenues.
     <hr/>
 </div>
-
-{% if articles %}
-    <h2>Modifié récemment</h2>
-    
-{% endif %}
-                            
+     
 <div class="row">
     <h2>Fiches récentes</h2>
     {% for article in articles|sort(attribute='updated', reverse = True) %}
