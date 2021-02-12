@@ -13,27 +13,46 @@
 
 {% block content %}
 
+<h2>Catalogue de librairies Python pour l'analyse de données</h2>
+
 <div class="row">
-    <h2>Catalogue de librairies Python pour l'analyse de données</h2>
-    Ce catalogue a pour but de recenser et présenter de façon succincte les principales librairies liées à l'analyse et au traitement de données en Python. 
-    De la sorte, un acteur avec des connaissances de base dans le domaine pourra naviguer le-dit catalogue afin de découvrir et repérer des librairies interéssantes pour 
+    Ce catalogue a pour but de recenser et présenter de façon succincte les principales librairies liées à l'analyse et au traitement de données en Python.
+    De la sorte, un acteur avec des connaissances de base dans le domaine pourra naviguer le-dit catalogue afin de découvrir et repérer des librairies interéssantes pour
     son projet et de décider rapidement si oui ou non la librairie concernée mérite une étude plus approfondie, via son site ou sa documentation.
     <br/><br/>
-    Ce catalogue est un projet opensource développé à l'University de Mons dans le cadre du programme opérationnel FEDER « Wallonie-2020.eu ». 
+    Ce catalogue est un projet opensource développé à l'University de Mons dans le cadre du programme opérationnel FEDER « Wallonie-2020.eu ».
     <br/>
     Les contributions à la forme et au contenu sont les bienvenues.
-    <hr/>
 </div>
-     
+
+<hr/>
+
+<h3>Catégories</h3>
+
 <div class="row">
-    <h3>Fiches récentes</h3>
+  {% for tag, articles in tags|sort %}
+    <div class="col-sm-4">
+        <a class="btn btn-default btn-block" href="{{ SITEURL }}/{{ tag.url }}">
+            {{ tag.name|truncate(16) }}
+            ({{ articles|count }})
+        </a>
+    </div>
+  {% endfor %}
+</div>
+
+
+<hr/>
+
+<h3>Fiches récentes</h3>
+
+<div class="row">
     {% for article in articles|sort(attribute='updated', reverse = True) %}
         {% if loop.index <= 6 %}
             <div class="col-sm-4">
             {% include 'includes/article_iteration.html' %}
             </div>
         {% endif %}
-    {% endfor %}  
+    {% endfor %}
 </div>
 
 {% endblock content %}
