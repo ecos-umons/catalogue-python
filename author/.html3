@@ -71,13 +71,15 @@ Catalogue de librairies Python pour l'analyse de données            </a>
     <div class="row">
 <div class="col-sm-3"></div>
         <div class="col-sm-6">
+<hr/>
 <article>
     <h2><a href="../keras.html">Keras</a></h2>
     <div class="summary"><p>Keras est une librairie permettant la création de réseaux de neurones à haut-niveau. Keras utilise Tensorflow, <span class="caps">CNTK</span> ou Theano en interne. Le but est de permettre un prototypage rapide. Keras supporte les réseaux convolutifs, récursifs et tourne aussi bien sur …</p>
         <a class="btn btn-default btn-xs" href="../keras.html">plus ...</a>
     </div>
 </article>
-<hr/><article>
+<hr/>
+<article>
     <h2><a href="../lifelines.html">Lifelines</a></h2>
     <div class="summary"><p>Lifelines est une implémentation d&#8217;analyse de survie : quelle est la probabilité qu&#8217;un évènement mettant fin aux interactions (&#8220;mort&#8221;) se produise, en fonction du temps ? Et quelle sera notre population après un temps donné&nbsp;?</p>
 <p>Ses spécificités sont&nbsp;:</p>
@@ -86,7 +88,8 @@ Catalogue de librairies Python pour l'analyse de données            </a>
         <a class="btn btn-default btn-xs" href="../lifelines.html">plus ...</a>
     </div>
 </article>
-<hr/><article>
+<hr/>
+<article>
     <h2><a href="../lifetimes.html">Lifetimes</a></h2>
     <div class="summary"><p>Lifetimes est une librairie permettant d&#8217;évaluer et de prédire la valeur totale d&#8217;un client, jusqu&#8217;à sa dernière&nbsp;interaction.</p>
 <p>Cela se fait sous deux hypothèses&nbsp;:</p>
@@ -96,14 +99,16 @@ Catalogue de librairies Python pour l'analyse de données            </a>
         <a class="btn btn-default btn-xs" href="../lifetimes.html">plus ...</a>
     </div>
 </article>
-<hr/><article>
+<hr/>
+<article>
     <h2><a href="../luigi.html">Luigi</a></h2>
     <div class="summary"><p>Luigi est une librairie aidant à la création de pipelines complexes. Elle prend en charge la résolution des dépendances, la gestion du workflow, la visualisation, la gestion des erreurs, l&#8217;intégration au terminal et d&#8217;autres tâches&nbsp;associées.</p>
 <p>Le serveur …</p>
         <a class="btn btn-default btn-xs" href="../luigi.html">plus ...</a>
     </div>
 </article>
-<hr/><article>
+<hr/>
+<article>
     <h2><a href="../matplotlib.html">Matplotlib</a></h2>
     <div class="summary"><p>Matplotlib est une librairie de rendu de graphique. Elle peut être utilisée dans des scripts Python, dans le terminal ou dans des notebooks&nbsp;Jupyter.</p>
 <p><img alt="Alt Text" src="../res/subplot.png"></p>
@@ -115,14 +120,16 @@ Catalogue de librairies Python pour l'analyse de données            </a>
         <a class="btn btn-default btn-xs" href="../matplotlib.html">plus ...</a>
     </div>
 </article>
-<hr/><article>
+<hr/>
+<article>
     <h2><a href="../mimesis.html">Mimesis</a></h2>
     <div class="summary"><p>Mimesis est un module rapide et facile d&#8217;utilisation qui aide à générer de grands volumes de données fictives dans de nombreuses&nbsp;langues.</p>
 <p>Ces données fictives peuvent être très utiles lors du développement et pour des tests. Par exemple, elle …</p>
         <a class="btn btn-default btn-xs" href="../mimesis.html">plus ...</a>
     </div>
 </article>
-<hr/><article>
+<hr/>
+<article>
     <h2><a href="../mlflow.html">MLflow</a></h2>
     <div class="summary"><p>MLflow est un ensemble de librairies visant à intégrer les différents aspects du machine learning ensemble. Les APIs ainsi proposées sont compatibles entre elles et avec diverses librairies de machine learning&nbsp;existantes.</p>
 <p>Les trois modules actuels sont :
@@ -130,7 +137,8 @@ Catalogue de librairies Python pour l'analyse de données            </a>
         <a class="btn btn-default btn-xs" href="../mlflow.html">plus ...</a>
     </div>
 </article>
-<hr/><article>
+<hr/>
+<article>
     <h2><a href="../networkx.html">NetworkX</a></h2>
     <div class="summary"><p>NetworkX est un module ciblant la création, la manipulation et l&#8217;étude des structures, dynamiques et fonctions de graphes complexes. Le public visé est composé de mathématiciens, physiciens, biologistes, informaticiens ou&nbsp;sociologues.</p>
 <p>En particulier, NetworkX propose&nbsp;:</p>
@@ -139,7 +147,8 @@ Catalogue de librairies Python pour l'analyse de données            </a>
         <a class="btn btn-default btn-xs" href="../networkx.html">plus ...</a>
     </div>
 </article>
-<hr/><article>
+<hr/>
+<article>
     <h2><a href="../natural-language-toolkit-nltk.html">Natural Language Toolkit (<span class="caps">NLTK</span>)</a></h2>
     <div class="summary"><p>Natural Language Toolkit (<span class="caps">NLTK</span>) est un ensemble de modules Python, de données et de tutoriels dans le domaine du traîtement des&nbsp;langues.</p>
 <p><span class="caps">NLTK</span> propose des algorithmes pour les tâches courantes du domaines, à savoir&nbsp;:</p>
@@ -149,13 +158,14 @@ Catalogue de librairies Python pour l'analyse de données            </a>
         <a class="btn btn-default btn-xs" href="../natural-language-toolkit-nltk.html">plus ...</a>
     </div>
 </article>
-<hr/><article>
+<hr/>
+<article>
     <h2><a href="../numexpr.html">NumExpr</a></h2>
     <div class="summary"><p>NumExpr est un évaluateur à haute performance pour les expressions numériques. De cette façon, l&#8217;expression <code>3*a+4*b</code> est accélérée et utilise moins de mémoire lors de l&#8217;utilisation de tableau. De plus, le multithread (paramétrable via des …</p>
         <a class="btn btn-default btn-xs" href="../numexpr.html">plus ...</a>
     </div>
 </article>
-<hr/>
+
         <ul class="pagination">
                 <li class="prev"><a href="../author/.html2">&laquo;</a>
                 </li>
