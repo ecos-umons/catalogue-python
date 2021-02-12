@@ -30,7 +30,7 @@ RELATIVE_URLS = True
 # Override
 DEFAULT_CATEGORY = 'misc'
 TYPOGRIFY = True
-SUMMARY_MAX_LENGTH = 50  # Set to None to use full content when "Summary" is not specified
+SUMMARY_MAX_LENGTH = 40  # Set to None to use full content when "Summary" is not specified
 DELETE_OUTPUT_DIRECTORY = True
 DISPLAY_TAGS_ON_SIDEBAR = True
 DISPLAY_TAGS_INLINE = True
