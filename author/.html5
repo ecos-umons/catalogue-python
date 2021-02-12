@@ -77,15 +77,14 @@ Catalogue de librairies Python pour l'analyse de données            </a>
 <p>En particulier, Polyglot offre les fonctions suivantes, toujours accessibles avec des appels de très haut niveau (typiquement en une commande)&nbsp;:</p>
 <ul>
 <li>Tokenisation (165&nbsp;langues)</li>
-<li>Reconnaissance de la langue  (196&nbsp;langues)</li>
-<li>Reconnaissance d&#8217;entités nommées (lieux, personnes, &#8230;) (40&nbsp;langues …</li></ul>
+<li>Reconnaissance de la langue …</li></ul>
         <a class="btn btn-default btn-xs" href="../polyglot.html">plus ...</a>
     </div>
 </article>
 <hr/><article>
     <h2><a href="../prophet.html">Prophet</a></h2>
     <div class="summary"><p>Prophet est une librairie ciblant les marchés financiers. Son objectif est de proposer une interface simple mais flexible pour permettre au développeur de se concentrer sur la modélisation de stratégies financières, de gestion de portfolio, ou des test&nbsp;rétro-actif.</p>
-<p>Pour ce faire, Prophet propose différents générateurs de données et permet …</p>
+<p>Pour …</p>
         <a class="btn btn-default btn-xs" href="../prophet.html">plus ...</a>
     </div>
 </article>
@@ -93,15 +92,14 @@ Catalogue de librairies Python pour l'analyse de données            </a>
     <h2><a href="../pyspider.html">pyspider</a></h2>
     <div class="summary"><p>pyspider est une librairie proposant un robot d&#8217;indexation paramétrable en Python. Une fois le script rédigé, une interface web permet d&#8217;explorer les résultats et processus en cours. L&#8217;architecture de pyspider permet une utilisation&nbsp;distribuée.</p>
 <p><img alt="Alt Text" src="../res/pyspider.png"></p>
-<p>Les différentes informations des pages webs sont disponibles sous le format pyquery, semblable …</p>
+<p>Les différentes informations …</p>
         <a class="btn btn-default btn-xs" href="../pyspider.html">plus ...</a>
     </div>
 </article>
 <hr/><article>
     <h2><a href="../igraph.html">igraph</a></h2>
     <div class="summary"><p>igraph est une librairie efficace pour la recherche et l&#8217;analyse de réseaux. Le paquet logiciel python-igraph propose une interface pour accéder à ses différentes&nbsp;fonctionnalités.</p>
-<p>La librairie de base, en C, est à installer et compiler indépendemment du module&nbsp;Python.</p>
-<p>Parmi les-dites fonctionnalités, il y a la possibilité de …</p>
+<p>La librairie de base, en C, est à installer et compiler indépendemment du module …</p>
         <a class="btn btn-default btn-xs" href="../igraph.html">plus ...</a>
     </div>
 </article>
@@ -111,13 +109,13 @@ Catalogue de librairies Python pour l'analyse de données            </a>
 <p>La librairie est principalement utilisée pour&nbsp;soit:</p>
 <ul>
 <li>Remplacer NumPy et profiter de la dite accélération&nbsp;graphique</li>
-<li>Faire de la recherche en deep learning, grâce à sa flexibilité et sa&nbsp;rapidité …</li></ul>
+<li>Faire de la recherche …</li></ul>
         <a class="btn btn-default btn-xs" href="../pytorch.html">plus ...</a>
     </div>
 </article>
 <hr/><article>
     <h2><a href="../requests.html">Requests</a></h2>
-    <div class="summary"><p>Requests permet d&#8217;envoyer des requêtes <span class="caps">HTTP</span>/1.1 extrêment facilement. La librairie permet de ne pas avoir à ajouter des commandes de requêtes aux urls ou d&#8217;encoder les données d&#8217;un <span class="caps">POST</span>. Le maintient de la connexion et la mise en commun des ressources est automatisée grâce à …</p>
+    <div class="summary"><p>Requests permet d&#8217;envoyer des requêtes <span class="caps">HTTP</span>/1.1 extrêment facilement. La librairie permet de ne pas avoir à ajouter des commandes de requêtes aux urls ou d&#8217;encoder les données d&#8217;un <span class="caps">POST</span>. Le maintient de la connexion et …</p>
         <a class="btn btn-default btn-xs" href="../requests.html">plus ...</a>
     </div>
 </article>
@@ -127,14 +125,14 @@ Catalogue de librairies Python pour l'analyse de données            </a>
 <p>Schema valide&nbsp;:</p>
 <ul>
 <li>Le&nbsp;type</li>
-<li>Les fonctions (ou objets avec une méthode <strong>call</strong>) : est-ce que ça …</li></ul>
+<li>Les …</li></ul>
         <a class="btn btn-default btn-xs" href="../schema.html">plus ...</a>
     </div>
 </article>
 <hr/><article>
     <h2><a href="../schematics.html">Schematics</a></h2>
     <div class="summary"><p>Schematics propose des solutions pour décrire des données grâce à l&#8217;utilisation d&#8217;un modèle. Ce modèle permet de définir les types et certains paramètres de validation (longueur, valeur,&nbsp;&#8230;).</p>
-<p>Une fois le modèle créé et les données rentrées (dynamiquement ou via un import), celles-ci peuvent être validée et exportée. L …</p>
+<p>Une fois le modèle créé et les données rentrées (dynamiquement ou …</p>
         <a class="btn btn-default btn-xs" href="../schematics.html">plus ...</a>
     </div>
 </article>
@@ -145,9 +143,7 @@ Catalogue de librairies Python pour l'analyse de données            </a>
 <p>Parmi les outils proposés&nbsp;:</p>
 <ul>
 <li>Des méthodes de&nbsp;classification</li>
-<li>Des outils de&nbsp;régression</li>
-<li>Du&nbsp;clustering</li>
-<li>Des méthodes de factorisation de matrices …</li></ul>
+<li>Des outils …</li></ul>
         <a class="btn btn-default btn-xs" href="../scikit-learn.html">plus ...</a>
     </div>
 </article>
@@ -161,9 +157,7 @@ Catalogue de librairies Python pour l'analyse de données            </a>
 <li>L&#8217;algèbre&nbsp;linéaire</li>
 <li>Les transformées de&nbsp;Fourier</li>
 <li>Le traitement du&nbsp;signal</li>
-<li>La résolution d&#8217;équations différentielles&nbsp;ordinaires</li>
-<li>L&#8217;interpolation</li>
-<li>Le traitement de&nbsp;fichiers …</li></ul>
+<li>La résolution …</li></ul>
         <a class="btn btn-default btn-xs" href="../scipy.html">plus ...</a>
     </div>
 </article>
